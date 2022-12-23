@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap");
+* {
+  font-family: "Aref Ruqaa Ink", serif;
+  font-weight: bold;
+}
+
+h1 {
+  position: fixed;
+  top: 100px;
+  left: 270px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card-body,
+.card {
+  position: relative;
+  width: 81rem;
+  height: 30rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+
+.weather {
+  position: fixed;
+  top: 100px;
+  right: 310px;
+}
+
+.weatherConditions {
+  list-style: none;
+  position: fixed;
+  top: 170px;
+  left: 260px;
+}
+
+.currentWeatherConditions {
+  list-style: none;
+  position: fixed;
+  top: 150px;
+  right: 330px;
+}
+
+.input {
+  width: 50rem;
+  height: 45px;
+}
+
+.button {
+  background-color: rgb(238, 119, 143);
+  height: 45px;
+  width: 90px;
+}
+
+.row {
+  position: relative;
+  top: 180px;
+  margin-left: 150px;
+}
