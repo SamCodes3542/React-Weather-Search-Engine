@@ -1,21 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap");
+
 * {
   font-family: "Aref Ruqaa Ink", serif;
   font-weight: bold;
 }
 
-h1 {
-  position: fixed;
-  top: 100px;
-  left: 270px;
+.city {
+  font-size: 55px;
+  position: relative;
+  top: 10px;
+  right: 570px;
 }
 
-a {
+.gitLink:hover {
+  color: goldenrod;
   text-decoration: none;
 }
-
-a:hover {
-  color: goldenrod;
+.linkedIn:hover {
+  color: rgb(43, 226, 73);
+  text-decoration: none;
+}
+.netlifyLink:hover {
+  color: rgb(226, 43, 83);
+  text-decoration: none;
 }
 
 .App {
@@ -32,39 +39,55 @@ a:hover {
   border-radius: 0.25rem;
 }
 
-.weather {
-  position: fixed;
-  top: 100px;
-  right: 310px;
+.temperature {
+  font-size: 55px;
+  position: relative;
+  top: -170px;
+  left: 570px;
 }
 
+.icon {
+  position: relative;
+  top: -75px;
+  left: 500px;
+}
 .weatherConditions {
   list-style: none;
-  position: fixed;
-  top: 170px;
-  left: 260px;
+  position: relative;
+  top: -260px;
+  left: 540px;
+}
+.unit {
+  position: relative;
+  top: -230px;
+  left: 610px;
 }
 
 .currentWeatherConditions {
   list-style: none;
-  position: fixed;
-  top: 150px;
-  right: 330px;
+  position: relative;
+  top: -190px;
+  right: 590px;
 }
 
-.input {
-  width: 50rem;
+.formInput {
+  position: relative;
+  bottom: 410px;
+  width: 40rem;
   height: 45px;
 }
 
 .button {
+  position: relative;
+  bottom: 410px;
   background-color: rgb(238, 119, 143);
   height: 45px;
   width: 90px;
 }
 
 .row {
+  align-items: center;
   position: relative;
-  top: 180px;
-  margin-left: 150px;
+  bottom: 200px;
+  margin: 0, auto;
 }
