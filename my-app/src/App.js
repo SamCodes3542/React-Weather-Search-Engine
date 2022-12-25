@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 import axios from "axios";
-import WeatherDate from "./WeatherDate";
+import SearchEngine from "./SearchEngine";
 
 export default function App() {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -26,32 +26,7 @@ export default function App() {
         <div className="container">
           <div className="card">
             <div className="card-body">
-              <h1 className="city"> {weatherData.city} </h1>
-              <img
-                src="http://openweathermap.org/img/wn/10d@2x.png"
-                className="icon"
-                alt="icon"
-              />
-              <h2 className="temperature">
-                {Math.round(weatherData.temperature)}
-              </h2>
-              <span className="unit">C</span>
-              <div className="text-capitalize">
-                <ul className="currentWeatherConditions">
-                  <li className="date">
-                    <WeatherDate date={weatherData.date} />
-                  </li>
-                  <li className="descrption">{weatherData.description}</li>
-                </ul>
-              </div>
-              <ul className="weatherConditions">
-                <li>
-                  Feels Like: {weatherData.feelsLike}
-                  <span className="float-left">c</span>{" "}
-                </li>
-                <li>Humidity: {weatherData.humidity}% </li>
-                <li>Wind: {Math.round(weatherData.wind)}km/h</li>
-              </ul>
+              
               <input
                 placeholder="Enter a City"
                 autoFocus="on"
@@ -90,6 +65,7 @@ export default function App() {
                   <br />☀
                 </div>
               </div>
+              <SearchEngine date= {weatherData}/>
             </div>
           </div>
         </div>
