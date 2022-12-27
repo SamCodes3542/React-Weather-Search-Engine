@@ -26,13 +26,13 @@ export default function App() {
         <div className="container">
           <div className="card">
             <div className="card-body">
-              
               <input
                 placeholder="Enter a City"
                 autoFocus="on"
-                className="formInput"
+                className="input"
               />
               <input type="button" value="Search" className="button" />
+              <SearchEngine data={weatherData} />
               <div className="row">
                 <div className="col-2">
                   Mon
@@ -65,7 +65,6 @@ export default function App() {
                   <br />☀
                 </div>
               </div>
-              <SearchEngine date= {weatherData}/>
             </div>
           </div>
         </div>

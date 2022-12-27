@@ -8,7 +8,7 @@
 .city {
   font-size: 55px;
   position: relative;
-  top: 10px;
+  top: -70px;
   right: 570px;
 }
 
@@ -70,16 +70,17 @@
   right: 590px;
 }
 
-.formInput {
+.input { 
   position: relative;
-  bottom: 410px;
-  width: 40rem;
-  height: 45px;
+  top: -70px;
+  width: 0rem;
+  height: 5px;
+ 
 }
 
 .button {
   position: relative;
-  bottom: 410px;
+  bottom: -10px;
   background-color: rgb(238, 119, 143);
   height: 45px;
   width: 90px;
