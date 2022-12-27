@@ -3,6 +3,7 @@
 * {
   font-family: "Aref Ruqaa Ink", serif;
   font-weight: bold;
+
 }
 
 .city {
@@ -32,6 +33,7 @@
 
 .card-body,
 .card {
+;
   position: relative;
   width: 81rem;
   height: 30rem;
@@ -42,19 +44,19 @@
 .temperature {
   font-size: 55px;
   position: relative;
-  top: -170px;
+  top: -240px;
   left: 570px;
 }
 
 .icon {
   position: relative;
-  top: -75px;
+  top: -145px;
   left: 500px;
 }
 .weatherConditions {
   list-style: none;
   position: relative;
-  top: -260px;
+  top: -310px;
   left: 540px;
 }
 .unit {
@@ -66,16 +68,15 @@
 .currentWeatherConditions {
   list-style: none;
   position: relative;
-  top: -190px;
+  top: -250px;
   right: 590px;
 }
 
-.input { 
+.input {
   position: relative;
-  top: -70px;
-  width: 0rem;
-  height: 5px;
- 
+  top: 10px;
+  width: 36rem;
+  height: 45px;
 }
 
 .button {

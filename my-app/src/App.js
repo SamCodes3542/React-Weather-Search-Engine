@@ -26,11 +26,7 @@ export default function App() {
         <div className="container">
           <div className="card">
             <div className="card-body">
-              <input
-                placeholder="Enter a City"
-                autoFocus="on"
-                className="input"
-              />
+             <input placeholder="Search a City" autofocu="on" className="input"/>
               <input type="button" value="Search" className="button" />
               <SearchEngine data={weatherData} />
               <div className="row">
