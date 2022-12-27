@@ -26,7 +26,11 @@ export default function App() {
         <div className="container">
           <div className="card">
             <div className="card-body">
-             <input placeholder="Search a City" autofocu="on" className="input"/>
+              <input
+                placeholder="Search a City"
+                autofocu="on"
+                className="input"
+              />
               <input type="button" value="Search" className="button" />
               <SearchEngine data={weatherData} />
               <div className="row">
@@ -76,7 +80,7 @@ export default function App() {
           By{" "}
           <a
             className="linkedIn"
-            href="https://www.linkedin.com/in/samantha-montgomery-70a68323a/"
+            href="https://github.com/SamCodes3542/React-Weather-Search-Engine"
             target="_blank rel=noopener noreferrer"
           >
             Samantha Montgomery
